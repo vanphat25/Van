@@ -12,7 +12,7 @@ public class Solution {
     static String dayOfProgrammer(int year) {
         String out = "";
         if (year == 1918) out ="26.09.1918";
-            else if ((year%400 == 0) || ((year%4 == 0) && (year%100 !=0)) || ((year%4 == 0 and ())))
+            else if ((year%400 == 0) || ((year%4 == 0) && (year%100 !=0)) || ((year%4 == 0 && (year <1918))))
             out = "12.09." + String.valueOf(year);
             else out = "13.09." + String.valueOf(year);
         return out;
